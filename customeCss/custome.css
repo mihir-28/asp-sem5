@@ -1,0 +1,46 @@
+﻿html,
+body {
+  height: 100%;
+  color:#456a8a;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: .5px;
+}
+.note
+{
+    color:#456a8a;
+    font-weight:900;
+    font-size:.8rem;
+    margin:0;
+}
+.defaultBackground
+{
+   
+   
+    background-image: linear-gradient(45deg, #f5f7fa ,  #c3cfe2);
+
+}
+.btn-login
+{
+  background-color: transparent;
+  border: 1px solid #456a8a;
+  border-radius: 8px;
+  color: #456a8a;
+  padding: .2em .4em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2em;
+  font-weight:900;
+  margin-top:2em;
+}
+.btn-login:hover
+{
+   background-color:#456a8a;
+   color: #fff;
+}
+.link
+{
+    text-decoration:none;
+    color:#456a8a;
+    cursor: pointer;
+}
