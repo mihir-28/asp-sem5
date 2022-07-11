@@ -34,10 +34,7 @@
            <div class="forSignUp">
                <asp:Label ID="Label3" runat="server" Text="If you are new user then"></asp:Label><asp:HyperLink ID="HyperLink2" class="link" runat="server">Sign Up</asp:HyperLink>
            </div>
-           
        </div>
-       
     </div>
-    </script>
 </body>
 </html>

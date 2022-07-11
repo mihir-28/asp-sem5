@@ -86,6 +86,7 @@ body {
 }
 .btnLogin:hover
 {
+    border:2px solid #456a8a;
    background-color:transparent;
    color: #456a8a;
 }
@@ -95,4 +96,11 @@ body {
     cursor: pointer;
     margin-left:.2em;
     font-weight:700;
+}
+
+
+.stickyHeader
+{
+    display:flex;
+    justify-content:space-between;
 }

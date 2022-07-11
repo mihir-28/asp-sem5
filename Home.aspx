@@ -7,18 +7,26 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
-    <link href="css/bootstrap.css" rel="Stylesheet" />
     <link href="customeCss/custome.css" rel="Stylesheet"/>
-    <title>Index</title>
+    <title>Home</title>
 </head>
 <body>
-    <form id="form1" runat="server">
-    <div>
-    
-<asp:label ID="Label1" runat="server" text="Label"></asp:label>
-    </div>
-    </form>
-    <script href="js/bootstrap.js">
-    </script>
+   <div class="mainContainer">
+        <div>
+            <form id="Form2" class="stickyHeader" runat="server">
+                <div>
+                    <asp:Image ID="Image1" ImageUrl="https://unsplash.com/photos/NYXBeElpFc4" runat="server" />
+                </div>
+                <div>
+                    <asp:Label ID="Label1" runat="server" Text="Mihir D Kuvardiya"></asp:Label>
+                </div>
+                <div>
+                    <asp:Button ID="Button1" runat="server" Text="Logout" />
+                </div>
+            </form>
+        </div>
+        <div>
+        </div>
+   </div>
 </body>
 </html>
