@@ -4,6 +4,55 @@ body {
   color:#456a8a;
   font-family: 'Roboto', sans-serif;
   letter-spacing: .5px;
+  background-image: linear-gradient(45deg, #f5f7fa ,  #c3cfe2);
+  background-repeat:no-repeat;
+  margin: 0 auto;
+  
+}
+.mainContainer
+{ 
+    margin: 0 auto;
+    max-width: 750px;
+}
+.form
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    border-radius: 20px;
+    margin-top:2.5em;
+     
+}
+.formControl
+{
+    display:flex;
+    flex-direction:column;
+    padding:1em;
+    margin-top:.5em;
+}
+.subHeading
+{
+    text-align: center;
+    font-size:1.5rem;
+    font-weight:900;
+    margin:.5em;
+}
+.mainHeading
+{
+    margin-top:2em;
+    text-align: center;
+    font-size:3rem;
+    font-weight:900;
+}
+.inputControl
+{
+    margin:.5em;
+    padding:1em;
+    border:1px solid #456a8a;
+    border-radius: 10px;
+    background-color:transparent;
+}
+.inputControl:focus {
+  border:2px solid #456a8a;
+  outline: none !important;
 }
 .note
 {
@@ -12,35 +61,38 @@ body {
     font-size:.8rem;
     margin:0;
 }
-.defaultBackground
+.forgetPassword
 {
-   
-   
-    background-image: linear-gradient(45deg, #f5f7fa ,  #c3cfe2);
-
+    text-align: right;
+    font-size:1rem;
+    font-weight:900;
+    margin-top:2em;
 }
-.btn-login
+.forSignUp
 {
-  background-color: transparent;
-  border: 1px solid #456a8a;
-  border-radius: 8px;
-  color: #456a8a;
-  padding: .2em .4em;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 1.2em;
-  font-weight:900;
-  margin-top:2em;
+    text-align:center;
+    font-size:1.2rem;
+    margin-top:2em;
 }
-.btn-login:hover
+.btnLogin
+{   margin:.5em;
+    padding:.7em;
+    border:1px solid #456a8a;
+    border-radius: 10px;
+    background-color:#456a8a;
+    margin-top:1.5em;
+    color: #fff;
+    font-size:1em
+}
+.btnLogin:hover
 {
-   background-color:#456a8a;
-   color: #fff;
+   background-color:transparent;
+   color: #456a8a;
 }
 .link
 {
-    text-decoration:none;
-    color:#456a8a;
+    text-decoration: underline;
     cursor: pointer;
+    margin-left:.2em;
+    font-weight:700;
 }
