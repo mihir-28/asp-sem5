@@ -82,11 +82,11 @@ body {
     background-color:#456a8a;
     margin-top:1.5em;
     color: #fff;
-    font-size:1em
+    font-size:1em;
 }
 .btnLogin:hover
 {
-    border:2px solid #456a8a;
+   border:2px solid #456a8a;
    background-color:transparent;
    color: #456a8a;
 }
@@ -98,9 +98,43 @@ body {
     font-weight:700;
 }
 
-
 .stickyHeader
 {
     display:flex;
-    justify-content:space-between;
+    justify-content:space-around;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    border-radius: 20px;
+    align-items:center;
+    margin-top: 2em;
 }
+.imageProfile
+{
+    border-radius: 50%;
+}
+.btnLogout
+{
+    padding:.7em;
+    border:1px solid #456a8a;
+    border-radius: 10px;
+    background-color:#456a8a;
+    color: #fff;
+    font-size:1em;
+}
+.btnLogout:hover
+{
+   border:2px solid #456a8a;
+   background-color:transparent;
+   color: #456a8a;
+}
+.secondContainer
+{
+     display: grid;
+     grid-template-areas:
+    '1 2'
+    '3 4';
+   
+}
+.item1 { grid-area: 1; }
+.item2 { grid-area: 2; }
+.item3 { grid-area: 3; }
+.item4 { grid-area: 4; }
