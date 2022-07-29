@@ -25,6 +25,7 @@
             <asp:Image ID="Image2" runat="server" BorderStyle="Solid" BorderWidth="1px" 
                 Height="100px" Width="100px" />
             <asp:Table ID="Table1" runat="server">
+
             </asp:Table>
         </div>
     </div>
