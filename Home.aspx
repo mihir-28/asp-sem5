@@ -19,7 +19,8 @@
                     <asp:Button ID="Button1" class="btnLogout" runat="server" Text="Logout" />
         </div>
         <div class="secondContainer">
-                <asp:LinkButton ID="LinkButton1" class="itemContainer" runat="server">Profile</asp:LinkButton>
+                <asp:LinkButton ID="LinkButton1" class="itemContainer" runat="server" 
+                    onclick="LinkButton1_Click">Profile</asp:LinkButton>
                 <asp:LinkButton ID="LinkButton2" class="itemContainer" runat="server">Fees</asp:LinkButton>
                 <asp:LinkButton ID="LinkButton3" class="itemContainer" runat="server">Pdfs</asp:LinkButton>
                 <asp:LinkButton ID="LinkButton4" class="itemContainer" runat="server">Suggestions</asp:LinkButton>
