@@ -22,9 +22,13 @@
             <asp:Button ID="Button1" class="btnLogout" runat="server" Text="Button" />
         </div>
         <div class="secondContainer">
-            <asp:Image ID="Image2" runat="server" BorderStyle="Solid" BorderWidth="1px" 
-                Height="100px" Width="100px" />
             <asp:Table ID="Table1" runat="server">
+                <asp:TableRow ID="TableRow10" runat="server"> 
+                    <asp:TableCell ID="TableCell28" runat="server">
+                        <asp:Image ID="Image2" runat="server" BorderStyle="Solid" BorderWidth="1px" 
+                Height="100px" Width="100px" />
+                    </asp:TableCell>
+                </asp:TableRow>
                 <asp:TableRow ID="TableRow1" runat="server">  
                     <asp:TableCell ID="TableCell1" runat="server">
                         <asp:Label ID="Label2" runat="server" Text="Enrollment No."></asp:Label></asp:TableCell> 
