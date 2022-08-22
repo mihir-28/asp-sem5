@@ -23,8 +23,9 @@
                <div class="subHeading">
                     <asp:Label ID="Label2" runat="server" Text="Log in"></asp:Label>
                </div>
-               <asp:TextBox ID="TextBox1" class="inputControl" placeholder="Enter Mobile Number..." runat="server" ></asp:TextBox>
+               <asp:TextBox ID="TextBox1" class="inputControl" placeholder="Enter Enrollment no..." runat="server" ></asp:TextBox>
                <asp:TextBox ID="TextBox2" class="inputControl" placeholder="Enter Password..." runat="server"></asp:TextBox>
+               <asp:Label ID="Label3" runat="server" Text="Note*-Password is your Date of Birth (ddMM) If your Date of Birth is 01/01/2001 then password is 0101"></asp:Label>
                <asp:Button ID="Button1" class="btnLogin" runat="server" Text="Log in..." onclick="Button1_Click" />
                </form>
            </div>

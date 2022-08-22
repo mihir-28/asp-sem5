@@ -132,14 +132,6 @@ body {
    background-color:transparent;
    color: #456a8a;
 }
-.secondContainer
-{
-     display: grid;
-     grid-gap:2em;
-     grid-template-columns: repeat(2, 1fr);
-     grid-template-rows: repeat(2, 1fr);
-     margin-top:5em;
-}
 .itemContainer
 {
     font-size:2rem;
@@ -152,9 +144,41 @@ body {
     text-align:center;
     text-decoration:none;
     color: #456a8a;
+    margin: 1.5em;
+    width: 35%;
 }
 .itemContainer:hover
 {
     background-color:#456a8a;
     color: #fff;
+}
+
+
+
+
+@media only screen and (max-width: 400px) {
+  /* For mobile phones: */
+ .mainContainer 
+ {
+    margin: 0;
+    max-width: 350px;
+    
+  }
+  .itemContainer
+  {
+      width: 80%
+  }
+}
+@media only screen and (max-width: 820px) {
+  /* For mobile phones: */
+ .mainContainer 
+ {
+    margin: 0;
+    max-width: 450px;
+    
+  }
+  .itemContainer
+  {
+       width: 100%
+  }
 }
