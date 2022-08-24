@@ -26,7 +26,8 @@
             </div>
             <div class="sub-container justify-content-center">
                     <asp:LinkButton ID="LinkButton3" class="btn itemContainer" runat="server">Pdfs</asp:LinkButton>
-                    <asp:LinkButton ID="LinkButton4" class="btn itemContainer" runat="server">Suggestions</asp:LinkButton>
+                    <asp:LinkButton ID="LinkButton4" class="btn itemContainer" runat="server" 
+                        onclick="LinkButton4_Click">Suggestions</asp:LinkButton>
             </div>
         </div>
     </div>
