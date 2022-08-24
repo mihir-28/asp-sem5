@@ -10,7 +10,7 @@ using System.Data.SqlClient;
 
 public partial class _Default : System.Web.UI.Page
 {
-    static SqlConnection con = new SqlConnection(@"Data Source=.\SQLEXPRESS;AttachDbFilename=C:\Users\STUD\studWorld\asp-sem5\App_Data\studWorld.mdf;Integrated Security=True;User Instance=True");
+    static SqlConnection con = new SqlConnection(@"Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\studWorld.mdf;Integrated Security=True;User Instance=True");
 
     protected void Page_Load(object sender, EventArgs e)
     {
